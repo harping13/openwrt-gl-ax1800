@@ -1639,7 +1639,6 @@ int hostapd_ubus_handle_event(struct hostapd_data *hapd, struct hostapd_ubus_req
 	
 	return WLAN_STATUS_SUCCESS;
 }
-}
 
 void hostapd_ubus_notify(struct hostapd_data *hapd, const char *type, const u8 *addr)
 {
